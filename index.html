@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hariharasudhan D | Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio of Hariharasudhan D, a final year CSE student and Web Developer specializing in Java, React, and Spring Boot.">
+    
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Hari.dev</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <!-- Galaxy video background -->
+        <div class="home-video-bg">
+            <video autoplay muted loop playsinline>
+                <source src="videos/blackhole.webm" type="video/webm">
+            </video>
+        </div>
+
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>
+                <span class="animate-name">
+                    <span class="animate-char">H</span><span class="animate-char">a</span><span class="animate-char">r</span><span class="animate-char">i</span><span class="animate-char">h</span><span class="animate-char">a</span><span class="animate-char">r</span><span class="animate-char">a</span><span class="animate-char">s</span><span class="animate-char">u</span><span class="animate-char">d</span><span class="animate-char">h</span><span class="animate-char">a</span><span class="animate-char">n</span>
+                    <span class="animate-char">&nbsp;</span>
+                    <span class="animate-char">D</span>
+                </span>
+            </h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Welcome to my professional portfolio. I specialize in designing and developing highly interactive, premium, and stunning web experiences.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <div class="hex-wrapper">
+                <!-- Violet glowing outline ring -->
+                <div class="hex-outline">
+                    <div class="hex-outline-inner"></div>
+                </div>
+                <!-- Clipped photo with 2-layer pop-out -->
+                <div class="hex-photo">
+                    <img class="img-body" src="image/profile.png" alt="Hero Body">
+                    <img class="img-head" src="image/profile.png" alt="Hero Head">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <div class="hex-wrapper">
+                <div class="hex-outline">
+                    <div class="hex-outline-inner"></div>
+                </div>
+                <div class="hex-photo">
+                    <img class="img-body" src="image/profile.png" alt="About Body">
+                    <img class="img-head" src="image/profile.png" alt="About Head">
+                </div>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>A Passionate Web Designer</h3>
+            <p>I am a final year CSE student dedicated to crafting visually striking and technically sound websites. My approach blends creativity with logic to create solutions that are both beautiful and functional. I enjoy learning new technologies and pushing the boundaries of web development, specializing in responsive design and robust backend systems.</p>
+            <a href="#contact" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box solo-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <ul class="services-list">
+                    <li><i class='bx bx-check-circle'></i> Responsive Website Design &amp; Development</li>
+                    <li><i class='bx bx-check-circle'></i> Frontend Development (HTML, CSS, JavaScript, React)</li>
+                    <li><i class='bx bx-check-circle'></i> Backend Development with Spring Boot &amp; REST APIs</li>
+                    <li><i class='bx bx-check-circle'></i> Database Design &amp; Integration (MySQL / SQL)</li>
+                    <li><i class='bx bx-check-circle'></i> Single Page Application (SPA) Development</li>
+                    <li><i class='bx bx-check-circle'></i> Website Performance Optimization</li>
+                    <li><i class='bx bx-check-circle'></i> Bug Fixing &amp; Code Review</li>
+                    <li><i class='bx bx-check-circle'></i> Portfolio &amp; Personal Websites</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <!-- Space background video for skills -->
+        <div class="skills-video-bg">
+            <video autoplay muted loop playsinline>
+                <source src="videos/skills-bg.webm" type="video/webm">
+            </video>
+        </div>
+
+        <h2 class="heading">My <span>Skills</span></h2>
+        <p class="skills-subtitle">Technologies I work with</p>
+
+        <div class="skills-icons-grid">
+            <!-- Row 1 -->
+            <div class="skill-icon-wrap" style="--delay: 0s">
+                <div class="skill-icon-card">
+                    <img src="image/skills/java.svg" alt="Java">
+                    <span>Java</span>
+                </div>
+            </div>
+            <div class="skill-icon-wrap" style="--delay: 0.2s">
+                <div class="skill-icon-card">
+                    <img src="image/skills/c.svg" alt="C">
+                    <span>C</span>
+                </div>
+            </div>
+            <div class="skill-icon-wrap" style="--delay: 0.4s">
+                <div class="skill-icon-card">
+                    <img src="image/skills/html.png" alt="HTML">
+                    <span>HTML</span>
+                </div>
+            </div>
+            <div class="skill-icon-wrap" style="--delay: 0.6s">
+                <div class="skill-icon-card">
+                    <img src="image/skills/css.png" alt="CSS">
+                    <span>CSS</span>
+                </div>
+            </div>
+            <div class="skill-icon-wrap" style="--delay: 0.8s">
+                <div class="skill-icon-card">
+                    <img src="image/skills/js.png" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <!-- Row 2 -->
+            <div class="skill-icon-wrap" style="--delay: 1.0s">
+                <div class="skill-icon-card">
+                    <img src="image/skills/bootstrap.svg" alt="Bootstrap">
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            <div class="skill-icon-wrap" style="--delay: 1.2s">
+                <div class="skill-icon-card">
+                    <img src="image/skills/react.png" alt="React">
+                    <span>React</span>
+                </div>
+            </div>
+            <div class="skill-icon-wrap" style="--delay: 1.4s">
+                <div class="skill-icon-card">
+                    <img src="image/skills/springboot.svg" alt="Spring Boot">
+                    <span>Spring Boot</span>
+                </div>
+            </div>
+            <div class="skill-icon-wrap" style="--delay: 1.6s">
+                <div class="skill-icon-card">
+                    <img src="image/skills/sql.svg" alt="SQL">
+                    <span>SQL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-img">
+                    <img src="C:\Users\Hariharasudhan.D\.gemini\antigravity\brain\1d027755-1efb-461e-994f-805e4e7dd7b6\cake_shop_1775192502432.png" alt="Cake Shop Website">
+                    <div class="portfolio-layer">
+                        <h4>Cake Shop Platform</h4>
+                        <p>A full-stack online ordering system featuring WhatsApp integration, Spring Boot backend, and React.js frontend.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h4>Cake Shop Platform</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-img">
+                    <img src="C:\Users\Hariharasudhan.D\.gemini\antigravity\brain\1d027755-1efb-461e-994f-805e4e7dd7b6\feedback_system_1775192533982.png" alt="Feedback System">
+                    <div class="portfolio-layer">
+                        <h4>Student Feedback System</h4>
+                        <p>Institution portal designed with Spring Boot &amp; Hibernate for managing feedback with analytical data visualization.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h4>Student Feedback System</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-img">
+                    <img src="C:\Users\Hariharasudhan.D\.gemini\antigravity\brain\1d027755-1efb-461e-994f-805e4e7dd7b6\portfolio_site_mockup_1775192562149.png" alt="Portfolio Site">
+                    <div class="portfolio-layer">
+                        <h4>Professional Portfolio</h4>
+                        <p>Modern, high-performance portfolio with glassmorphism UI and 3D hexagon pop-out effects.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h4>Professional Portfolio</h4>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://formsubmit.co/dgsh.hariharasudhan@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="#contact">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Mobile Number">
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Hariharasudhan D | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
